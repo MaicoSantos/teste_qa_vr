@@ -1,0 +1,16 @@
+{
+  "name": "teste_qa_vr",
+  "version": "1.0.0",
+  "description": "Teste QA VR",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "Maico dos Santos Salvo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
