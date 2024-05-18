@@ -1,6 +1,6 @@
 //commands UI
 
-import './/commands_blog_agi.js'
+import './/commands_vr.js'
 
 
 Cypress.on('uncaught:exception', (err, runnable) => {

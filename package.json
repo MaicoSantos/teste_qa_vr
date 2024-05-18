@@ -11,6 +11,8 @@
   "author": "Maico dos Santos Salvo",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.9.0"
+    "cypress": "^13.9.0",
+    "faker": "^5.5.3",
+    "faker-br": "0.4.0"
   }
 }
