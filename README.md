@@ -1,9 +1,7 @@
 # teste_qa_vr
 
-# teste_agi
-
-Teste Agi Bank
-Este é o projeto do uma automação para o teste técnico do Agi Bank
+Teste VR
+Este é o projeto do uma automação para o teste técnico da VR
 
 Projeto de automação
 Instalação e Pré-Requisitos
@@ -17,9 +15,9 @@ Instalar as dependencias do projeto: npm i
 Cypress.io
 
 Execução dos testes
-Prompt de comando: Navegar até a pasta do projeto ex:'cd teste_agi' e executar um dos comando abaixo:
+Prompt de comando: Navegar até a pasta do projeto ex:'cd teste_qa_vr' e executar um dos comando abaixo:
 
 ```
-npx cypress open: Abrir a IDE do Cypress e apartir de lá executar os testes
-npx cypress run: Executa no prompt de comando
+'npx cypress open': Abrir a IDE do Cypress e apartir de lá executar os testes
+'npx cypress run': Executa no prompt de comando
 ```

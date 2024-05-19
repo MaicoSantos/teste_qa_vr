@@ -1,9 +1,8 @@
 const testeVRPage = require('./teste_vr_page.js')
 const testeVR_Pg = new testeVRPage()
 
+// Commands para separa os testes em blocos e por funcionalidades botões e telas
 
-
-// cypress/support/commands.js
 Cypress.Commands.add('seleciona_btn_compra', () => {
   cy.get(testeVR_Pg.btn_compre_online).then(($el) => {
     // Adiciona um listener temporário para capturar a URL
@@ -32,23 +31,6 @@ Cypress.Commands.add('seleciona_btn_compra', () => {
     });
   });
 });
-
-
-
-
-// Cypress.Commands.add('seleciona_btn_compra', { timeout: 7000 }, () => {
-
-//   cy.get(testeVR_Pg.btn_compre_online)
-//     .invoke("removeAttr", "target")
-//     .click()
-
-//     // cy.window().then((win) => {
-//     //   cy.stub(win, 'open', url => {
-//     //       win.location.href = 'https://loja.vr.com.br/';
-//     //   }).as("popup")
-//     //   })
-
-// })
 
 Cypress.Commands.add('seleciona_grid_cartoes_VR', { timeout: 7000 }, () => {
 
@@ -126,7 +108,6 @@ Cypress.Commands.add('valida_produto_adicionado_carrinho', { timeout: 7000 }, (q
       .should('be.visible')
       .should('exist')
       .should('contains.text', "Quantidade cartões"+quantidade , { matchCase: false })
-      // .should('contains.text', quantidade)
       
       cy.get(testeVR_Pg.valor_total_carrinho)
       .should('be.visible')
